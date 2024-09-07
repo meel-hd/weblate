@@ -2110,3 +2110,47 @@ tbody.warning {
   border: none;
   border-radius: var(--border-radius);
 }
+
+#search-preview {
+  position: absolute;
+  display: none;
+  top: 45px;
+  left: 0px;
+  width: 100%;
+  min-height: 40px;
+  max-height: 200px;
+  background: white;
+  padding: 10px 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  border-top: none;
+  overflow-y: auto;
+  box-shadow: 1px 2px 4px #00000020;
+}
+
+#search-preview > #search-result {
+  display: block;
+  padding: 5px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 4px;
+}
+
+#search-preview > #search-result:hover {
+  background-color: #cccccc50;
+}
+
+#search-preview > #search-result > h4 {
+  margin: 0 0 5px 0;
+}
+
+#search-preview > #search-result > div {
+  margin-left: 10px;
+}
+
+#search-preview > #search-result span::before {
+  content: "=>";
+  background: #01ff7050;
+  margin: 0 5px;
+}
