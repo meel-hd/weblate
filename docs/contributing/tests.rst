@@ -46,7 +46,7 @@ The simple execution can look like:
 Local testing
 +++++++++++++
 
-Before running test, please ensure test dependencies are installed. This can be done by ``pip install -e .[test]``.
+Before running test, please ensure test dependencies are installed. This can be done by ``uv pip install -e .[test]``.
 
 Testing using pytest
 ~~~~~~~~~~~~~~~~~~~~
